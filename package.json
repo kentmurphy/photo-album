@@ -1,0 +1,20 @@
+{
+    "name": "photo-album",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "tsc && ts-node ./node_modules/jasmine/bin/jasmine",
+        "tsc": "tsc",
+        "photo-album": "tsc && node build/app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jasmine": "^3.8.2",
+        "@types/node": "^16.4.10",
+        "jasmine": "^3.8.0",
+        "ts-node": "^10.1.0",
+        "typescript": "^4.3.5"
+    }
+}
